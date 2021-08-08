@@ -14,8 +14,8 @@ env:
   REPO_BRANCH: master
   CONFIG_FILE: config/hiwifi.config
   DIY_SH: scripts/hiwifi-diy.sh
-  IPV6MOD_IN_FIRMWARE: true
-  KMODS_IN_FIRMWARE: true
+  IPV6MOD_IN_FIRMWARE: false
+  KMODS_IN_FIRMWARE: false
   UPLOAD_RCLONE: true
   UPLOAD_WETRANSFER: true
   TZ: Asia/Shanghai
