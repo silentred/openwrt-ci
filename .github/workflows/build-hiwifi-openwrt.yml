@@ -69,7 +69,7 @@ jobs:
         run: |
           [ -e files ] && mv files $OPENWRTROOT/files
           [ -e $CONFIG_FILE ] && mv $CONFIG_FILE $OPENWRTROOT/.config
-          cat config/extra.config >> $OPENWRTROOT/.config
+          cat config/test.config >> $OPENWRTROOT/.config
           cd $OPENWRTROOT
           ../$DIY_SH
           ../scripts/preset-apps.sh
